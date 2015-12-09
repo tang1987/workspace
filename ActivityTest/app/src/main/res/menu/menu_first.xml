@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tang.activitytest.FirstActivity">
+    <item android:id="@+id/add_item" android:title="@string/add_menu"/>
+    <item android:id="@+id/remove_item" android:title="@string/remove_menu"/>
+</menu>

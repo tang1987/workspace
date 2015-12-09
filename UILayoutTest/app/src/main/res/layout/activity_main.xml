@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+<!--    <include layout="@layout/title"/> -->
+    <com.tang.uilayouttest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.tang.uilayouttest.TitleLayout>
+    <EditText
+     android:id="@+id/editText"
+     android:layout_weight="1"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:hint="type something here"/>
+    
+    <Button
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="send"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>
